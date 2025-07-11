@@ -99,13 +99,36 @@ a {
 
 .third-container {
     display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px 30px 90px 30px;
+}
+
+.box-container {
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 28px;
 }
 
 .box {
-    background-color: black;
-    height: 100px;
-    width: 100px;
-    border: 1px solid #3882F6;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
     border-radius: 12px;
+}
+
+.fourth-container {
+    background-color: #E5E7EB;
+    margin: 0px;
+    padding: 30px;
+    height: 400px;
+}
+.quote {
+    text-align: center;
+}
+
+.thor {
+    text-align: right;
 }
