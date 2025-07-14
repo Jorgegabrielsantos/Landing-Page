@@ -123,12 +123,62 @@ a {
     background-color: #E5E7EB;
     margin: 0px;
     padding: 30px;
-    height: 400px;
+    height: 420px;
 }
 .quote {
-    text-align: center;
+    text-align: justify;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 60px 60px 60px 110px;
 }
 
 .thor {
     text-align: right;
+    font-weight: bold;
+    padding-right: 180px;
+}
+
+.another-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #fff;
+    height: 320px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    height: 35px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.copy {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
